@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  background-color: lightskyblue;
+  border-radius: 12px;
+  box-shadow: 0 0 20px darkblue;
+}
+
+h1 {
+  color: darkblue;
+  margin-bottom: 36px;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.input-area input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.input-area button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-area button:hover {
+  background-color: darkblue;
+}
+
+.error-msg {
+  color: red;
+  margin: 12px;
+}
+
+.filter {
+  margin-top: 36px;
+}
+
+.filter button {
+  margin: 4px;
+  background-color: lightgray;
+}
+
+.filter .active {
+  background-color: #646cff;
+  color: white;
+  border: none;
+}
+
+.todo-list {
+  color: black;
+  list-style: none;
+  padding: 0;
+  align-items: start;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 8px;
+}
+
+.todo-text {
+  text-align: left;
+  flex: 1;
+  padding-left: 8px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 24px;
+}
+
+.button_delete {
+  margin-left: 12px;
+  background-color: red;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button_edit {
+  margin-left: 12px;
+  background-color: orange;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button_delete:hover{
+  background-color: rgb(156, 0, 0);
+}
+
+.button_edit:hover{
+  background-color: rgb(173, 113, 0);
+}
+
+.todo-text {
+  text-align: left;
+}
+
